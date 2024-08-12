@@ -1,0 +1,83 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+    background-color: #B4D4FF;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #86B6F6;
+    padding: 10px 20px;
+
+}
+
+.navbar-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.navbar-right a:hover {
+    color: #176B87;
+}
+
+.nav-link.active {
+    color: #001f47;
+    font-weight: bold;
+}
+.navbar a{
+    color: #EEF5FF;
+    font-size: large;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #020202;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.job ul, #skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.job li, #skills li {
+    background-color: #e9ecef;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+a{
+    color: #176B87;
+    background-color: transparent;
+
+}
+
+footer{
+    background-color: #86B6F6;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+col{
+    width:500px; 
+    height: 700px; 
+    object-fit: fill;
+}
+
